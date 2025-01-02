@@ -5,6 +5,14 @@
 #include <SFML/Graphics.h>
 
 /*
++======================================================================+
+|                 Main FrozenLake environment settings                 |
++======================================================================+
+*/
+
+
+
+/*
     Map string literal
         - `S` - start
         - `F` - frozen (ice)
@@ -33,13 +41,15 @@
 /* Time spent for each action (to slow down animation) */
 #define ENV_ACTION_DELAY 200
 
-
+/* Console attachment flag */
 #define ENV_USE_CONSOLE 0
 
 
 
-#define ENV_SPRITE_SCALE       ((sfVector2f){ENV_SCREEN_SCALE, ENV_SCREEN_SCALE})
 
+
+
+#define ENV_SPRITE_SCALE       ((sfVector2f){ENV_SCREEN_SCALE, ENV_SCREEN_SCALE})
 
 
 

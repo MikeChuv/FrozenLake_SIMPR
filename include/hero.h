@@ -26,6 +26,8 @@ typedef struct tagHero tHero, * hHero;
 
 hHero HeroCreate(hMap map);
 
+
+
 int HeroDraw(hHero hero, sfRenderWindow* renderWindow);
 
 int HeroMove(hHero hero, tDirection dir);
@@ -39,6 +41,8 @@ int HeroGoToStart(hHero hero);
 tTileType HeroGetCurrentTile(hHero hero);
 
 tTileType HeroLook(hHero hero, tDirection dir);
+
+
 
 void HeroDestroy(hHero hero);
 

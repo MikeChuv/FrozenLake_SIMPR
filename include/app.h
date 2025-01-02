@@ -46,7 +46,9 @@ int AppProcessWinMessage(pApp app, const MSG* msg);
 void AppRedraw(pApp app);
 
 
-
+/*
+    Free the allocated resources
+*/
 int AppDestroy(pApp app);
 
 
